@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans:300,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-size: 18px;
+    font-family:'Public Sans', sans-serif;
+}
+.container {
+
+    margin: 0 30px;
+    /* width: 100%; */
+    
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px
+    
+}
+
+nav img {
+    height: 100%;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: gray;
+    font-weight: 500;
+}
+
+button {
+
+    height: 60px;
+    width: 250px;
+    border-radius: 50px;
+    background: linear-gradient( to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.background {
+    
+    height: 600px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.sup {
+
+    display: flex;
+    /* border:solid 3px purple; */
+    height: 550px;
+    
+    
+}
+
+.text-left {
+
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.text-left h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(71, 71, 71);
+}
+
+.text-left p {
+
+    color: rgb(150, 144, 144);
+    font-size: 20px;
+} 
+
+.images {
+    
+    width: 50%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.logo {
+
+    position: absolute;
+    top: 50px;
+    left: 122px;
+    z-index: 0;
+    height: 81%;
+    transform: scale(1.5);
+}
+
+.telep {
+
+    position: absolute;
+    top: 40px;
+    right: 44px;
+    z-index: 1;
+    height: 100%;
+}
+
+
+
